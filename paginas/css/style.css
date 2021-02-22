@@ -1,0 +1,159 @@
+/*Header */
+#header{
+    background-image: url("../images/bg_parallax.jpeg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#header-opacidade{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100vh;
+}
+#header-info{
+    top: 5vh;
+    position: relative;
+    text-align: center;
+}
+#info-list{
+    color: white;
+}
+#info-list i{
+    margin: 0 .5vh;
+}
+#conteudo-list{
+    top:30vh;
+    color:white;
+    text-align:start;
+}
+#conteudo-list p{position: relative;top:2vh;}
+#conteudo-list a    {
+    background: #A42C35;
+    padding: 20px;
+    border-radius: 20px;
+    font-size:1.8rem;
+    top: 5vh;
+    color: whitesmoke;
+    position: relative;
+}
+#conteudo-list a:hover{
+    background: #75261d;
+    text-decoration: none;
+}
+#conteudo-list-img{    top:30vh;
+    color:white;
+    text-align:start;}
+#conteudo-list-img img{width: 100%; height:100%;}
+/*Main*/
+/*Nossos servicos*/
+#services-img img{ 
+    width: 100%;
+    height: 100%;
+}
+#services-texto button{
+    width: 100%;
+    height: 100%;
+    background: #A42C35;
+    color: whitesmoke;
+    border: none;
+}
+#services-img{
+    margin: 2   vh 0;
+}
+#services-texto h6{
+    margin: 2vh 0;
+}
+/*Contato*/
+#contato{
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    background-image: url('../images/bg.jpeg');
+}
+#contato-bg{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 60vh; 
+    align-items:center;
+}
+#form{
+    width: 100%;
+    height: auto;
+    border: 1px solid white;
+    padding:10px;
+    color: white    ;
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 10vh;
+    margin-bottom: auto;
+
+}
+#form label{
+    width: 100%;
+}
+#form input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+}
+#form textarea{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid white;
+    height:200px;
+}
+#contato-info{
+    color: #ffffff;
+    margin-top:5vh;
+}
+/*Footer*/
+#footer-empresa{
+    background-color:#A42C35;
+    color:white;
+    padding:30px;
+}
+#footer-desenvolvedor{
+    background-color:#010101;
+    color:white;
+    padding:30px;
+}
+/*responsividade*/
+@media only screen and (max-width: 700px) {
+    #conteudo-list{top:100vh;color:black;}
+    #conteudo-list-img{top:10vh;color:white;text-align:start;}
+    #nossos-servicos--section{margin-top:70vh}
+    #contato{
+        background-position:bottom;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        width: 100%;
+        height: 120vh;
+        background-image: url('../images/bg.jpeg');
+    }
+    #contato-bg{
+        background: rgba(0, 0, 0, 0.4);
+        width: 100%;
+        height: 120vh; 
+        align-items:center;
+    }
+}
+
+
+@media only screen and (max-width: 350px) {
+    #conteudo-list-img{top:0vh;color:white;text-align:start;}
+    #conteudo-list a    {
+        background: #6C2921;
+        padding: 10px;
+        border-radius: 20px;
+        font-size:1.5rem;
+        top: 5vh;
+        color: whitesmoke;
+        position: relative;
+    }
+}
